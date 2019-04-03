@@ -1,13 +1,28 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Holiday Everyday</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Branch Test</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
@@ -15,12 +30,176 @@
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-database.js"></script>
     <script src="assets/javascript/firebase.js"></script>
+    <script src="assets/javascript/travel-advisories.js"></script>
     <script src="assets/javascript/app.js"></script>
-</head>
+    
+  </head>
+  <body>
+    <nav class="lighten-3" style="background-color:  rgb(238, 193, 124)" role="navigation">
+      <div class="nav-wrapper container">
+        <img id="logo-div" src="assets/images/logo.png"></img>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
 
-<body>
-        <div id="travel-advisory-info-widget">Travel-Advisory.info</div>
-        <script id="widget-script" type="text/javascript" src="https://www.travel-advisory.info/widget.js?countrycode=LS"></script>
-</body>
+        <ul id="nav-mobile" class="sidenav ">
+          <li"><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+      </div>
+    </nav>
 
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container" style="width: 42rem">
+          <br /><br />
+          <h1 class="header center yellow-text" style="padding-bottom: 15px; border-radius: 10px; font-style: oblique; font-size: 5rem; font-family: fantasy; background: rgb(85, 153, 180);">
+            Holiday Everyday
+          </h1>
+          <div class="row center">
+            <h5 class="header col s12 light">
+              A modern responsive front-end framework based on Material Design
+            </h5>
+          </div>
+          <div class="row center">
+            <a
+              href="http://materializecss.com/getting-started.html"
+              id="download-button"
+              class="btn-large yellow-text waves-effect waves-light"
+              style="background-color: rgb(2, 61, 139); font-size: 2rem; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-radius: 1Rem;"
+              >Get Started</a
+            >
+          </div>
+          <br /><br />
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="assets/images/background1.jpg" alt="Unsplashed background img 1" />
+      </div>
+    </div>
+
+    <div class="container-fluid" style="font-family: Georgia, 'Times New Roman', Times, serif; background-color:  rgb(238, 193, 124); padding-left: 6rem; padding-right: 5rem;">
+      <div class="section">
+        <!--   Icon Section   -->
+        <div class="row">
+          <table style="border-end-end-radius: 10px">
+            <thead class="black-text" style="background: rgb(85, 153, 180); border-radius: 2Rem; padding-left: 5px;">
+              <tr>
+                <th style="text-align: center; border-radius: 10px">Flag</th>
+                <th style="text-align: center; border-radius: 10px">Country</th>
+                <th style="text-align: center; border-radius: 10px">Date</th>
+                <th style="text-align: center; border-radius: 10px">Holiday Name</th>
+                <th style="text-align: center; border-radius: 10px">Wiki Page Link</th>
+                <th style="text-align: center; border-radius: 10px">Travel Info</th>
+                <th style="text-align: center; border-radius: 10px">Travel Risk</th>
+              </tr>
+            </thead>
+
+            <tbody id="table-body">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">
+              A modern responsive front-end framework based on Material Design
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="assets/images/paris.jpg" alt="Unsplashed background img 2" />
+      </div>
+    </div>
+
+    <div class="container-fluid" style="padding-left: 5rem; padding-right: 5rem; background-color:  rgb(238, 193, 124)">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>Contact Us</h4>
+            <p class="left-align light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              scelerisque id nunc nec volutpat. Etiam pellentesque tristique
+              arcu, non consequat magna fermentum ac. Cras ut ultricies eros.
+              Maecenas eros justo, ullamcorper a sapien id, viverra ultrices
+              eros. Morbi sem neque, posuere et pretium eget, bibendum
+              sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis
+              nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa
+              odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget
+              dignissim mauris, non tristique erat. Vestibulum ante ipsum primis
+              in faucibus orci luctus et ultrices posuere cubilia Curae;
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">
+              A modern responsive front-end framework based on Material Design
+            </h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="assets/images/background3.jpg" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+
+    <footer class="page-footer" style="background-color:  rgb(238, 193, 124)">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="black-text">Company Bio</h5>
+            <p class="black-text text-lighten-5">
+              We are a team of college students working on this project like
+              it's our full time job. Any amount would help support and continue
+              development on this project and is greatly appreciated.
+            </p>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="black-text">Settings</h5>
+            <ul>
+              <li><a class="black-text text-lighten-5" href="#!">Link 1</a></li>
+              <li><a class="black-text text-lighten-5" href="#!">Link 2</a></li>
+              <li><a class="black-text text-lighten-5" href="#!">Link 3</a></li>
+              <li><a class="black-text text-lighten-5" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="black-text">Connect</h5>
+            <ul>
+              <li><a class="black-text text-lighten-5" href="#!">Link 1</a></li>
+              <li><a class="black-text text-lighten-5" href="#!">Link 2</a></li>
+              <li><a class="black-text text-lighten-5" href="#!">Link 3</a></li>
+              <li><a class="black-text text-lighten-5" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Made by
+          <a class="brown-text text-lighten-3" href="http://materializecss.com"
+            >Materialize</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--script src="js/init.js"></script>-->
+  </body>
 </html>
