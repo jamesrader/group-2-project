@@ -10,18 +10,21 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css"
+    type="text/css"
+    rel="stylesheet"
+    media="screen,projection"
+  />
+
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
       type="text/css"
       rel="stylesheet"
       media="screen,projection"
     />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css"
-      type="text/css"
-      rel="stylesheet"
-      media="screen,projection"
-    />
+    
   </head>
   <body>
     <nav class="lighten-3" style="background-color:  rgb(238, 193, 124)" role="navigation">
@@ -44,18 +47,29 @@
       <div class="section no-pad-bot">
         <div class="container" style="width: 42rem">
           <br /><br />
-          <h1 class="header center yellow-text" style="padding-bottom: 15px; border-radius: 10px; font-style: oblique; font-size: 5rem; font-family: fantasy; background: rgb(85, 153, 180);">
+          <h1 class="header center yellow-text" style="z-index: 3!important; padding-bottom: 15px; border-radius: 10px; font-style: oblique; font-size: 5rem; font-family: fantasy; background: rgb(85, 153, 180);">
             Holiday Everyday
           </h1>
           <div class="row center">
-            <h5 class="header col s12 light">
-              A modern responsive front-end framework based on Material Design
+            <h5 class="header col s12 black-text blue-grey lighten-3" style="z-index: 1; padding: 5px; margin-top: -2.6rem; background-blend-mode: hue; border-radius: 10px; font-style: oblique; font-family: 'Times New Roman', Times, serif; background: rgb(85, 153, 180);" >
+              A fast and easy way to view and access holidays or cultural ceremonies from all over the world!
             </h5>
           </div>
+
+          <div class="row center">
+                <form id="input-form">
+                        <div class=" row center input-field grey lighten-3 text-lighten-3" style="width:75%; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                        
+                          <h5 class="blue-grey lighten-3" style="padding: 0.5rem; border-top-right-radius: 10px; border-top-left-radius: 10px;"> SEARCH ANY FUTURE DATE HERE!</h5>
+                        
+                        <input type="date" id="date-enter" style="text-align: center" /><br />
+                        </div>
+                </form>
+          </div>
+          
           <div class="row center">
             <a
-              href="http://materializecss.com/getting-started.html"
-              id="download-button"
+              id="date-search-button"
               class="btn-large yellow-text waves-effect waves-light"
               style="background-color: rgb(2, 61, 139); font-size: 2rem; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-radius: 1Rem;"
               >Get Started</a
@@ -200,6 +214,6 @@
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!--script src="js/init.js"></script>-->
+    <script src="assets/javascript/init.js"></script>
   </body>
 </html>
