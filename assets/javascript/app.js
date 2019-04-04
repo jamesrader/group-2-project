@@ -18,8 +18,14 @@ $(document).ready(function () {
     var year = moment().format("YYYY");
     var month = moment().format("MM");
     var day = moment().format("DD");
+    var today = moment().format("YYYY-MM-DD");
+    var plusTwoYears = moment().add(2, "years").format("YYYY-MM-DD");
     var holidaysFound = [];
-    console.log(advisories);
+    
+    
+
+
+   
 
     function getCountriesList() {
         holidaysData.once("value").then(function (snapshot) {
@@ -183,19 +189,19 @@ $(document).ready(function () {
         var inputDate = $("#date-enter").val();
         console.log(inputDate);
 
-        var regEx = new RegExp("^((20)[12]\\d)-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])");
-        if (regEx.test(inputDate)) {
-            console.log("Valid");
+        if (inputDate < today || inputDate > plusTwoYears){
+            M.toast({html: "Valid dates are ONLY between today and 2 years from today.", classes: " red rounded"});
+        } else {
+
+        
+
+    
             year = moment(inputDate, "YYYY-MM-DD").format("YYYY");
             month = moment(inputDate, "YYYY-MM-DD").format("MM");
             day = moment(inputDate, "YYYY-MM-DD").format("DD");
-            console.log("Month: " + month);
-            console.log("Day: " + day);
-            console.log("Year: " + year);
             getHolidays(month, day, year);
 
-        } else {
-            console.log("Invalid");
+       
         }
 
 
