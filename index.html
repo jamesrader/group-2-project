@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Parallax Template - Materialize</title>
+    <title>Holiday Everyday</title>
 
     <!-- CSS  -->
     <link
@@ -12,7 +12,7 @@
     />
 
     <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/"
     type="text/css"
     rel="stylesheet"
     media="screen,projection"
@@ -24,6 +24,15 @@
       rel="stylesheet"
       media="screen,projection"
     />
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-database.js"></script>
+    <script src="assets/javascript/firebase.js"></script>
+    <script src="assets/javascript/travel-advisories.js"></script>
+    <script src="assets/javascript/app.js"></script>
     
   </head>
   <body>
@@ -83,7 +92,7 @@
       </div>
     </div>
 
-    <div class="container-fluid" style="font-family: Georgia, 'Times New Roman', Times, serif; background-color:  rgb(238, 193, 124); padding-left: 5rem; padding-right: 5rem;">
+    <div class="container-fluid" style="font-family: Georgia, 'Times New Roman', Times, serif; background-color:  rgb(238, 193, 124); padding-left: 6rem; padding-right: 5rem;">
       <div class="section">
         <!--   Icon Section   -->
         <div class="row">
@@ -99,17 +108,7 @@
                 <th style="text-align: center; border-radius: 10px">Travel Risk</th>
               </tr>
             </thead>
-
-            <tbody id="table-body" >
-              <tr>
-                <td style="text-align: center"></td>
-                <td style="text-align: center"></td>
-                <td style="text-align: center"></td>
-                <td style="text-align: center"></td>
-                <td style="text-align: center"></td>
-                <td style="text-align: center"></td>
-                <td style="text-align: center"></td>
-              </tr>
+            <tbody id="table-body">
             </tbody>
           </table>
         </div>
@@ -211,8 +210,7 @@
     </footer>
 
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="assets/javascript/init.js"></script>
+    <!--script src="assets/javascript/init.js"></script>-->
   </body>
 </html>
