@@ -33,3 +33,15 @@
     right: 15%;
     /* transform: translateX(50%) translateY(50%); */
 }
+
+  @media screen and (min-width: 0px) and (max-width: 767px) and (orientation: portrait) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
