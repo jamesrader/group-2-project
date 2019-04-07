@@ -21,3 +21,15 @@
     background-color: rgb(182, 66, 66);
     color: #fff;
 }
+
+.test {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+#toast-container {
+    min-width: 10%;
+    top: 40%;
+    right: 15%;
+    /* transform: translateX(50%) translateY(50%); */
+}
