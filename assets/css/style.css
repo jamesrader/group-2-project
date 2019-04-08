@@ -1,28 +1,32 @@
-.low-risk{
+.low-risk {
     text-align: center;
     background-color: rgb(81, 155, 81);
     color: #fff;
 }
 
-.medium-risk{
+.medium-risk {
     text-align: center;
     background-color: rgb(37, 108, 167);
     color: #fff;
 }
 
-.high-risk{
+.high-risk {
     text-align: center;
     background-color: rgb(179, 179, 76);
     color: #fff;
 }
 
-.extreme-risk{
+.extreme-risk {
     text-align: center;
     background-color: rgb(182, 66, 66);
     color: #fff;
 }
 
-.test {
+.flight-price {
+    text-align: center;
+}
+
+.advisory-container {
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
 }
@@ -32,11 +36,6 @@
     top: 40%;
     right: 25%;
     /* transform: translateX(50%) translateY(50%); */
-}
-
-#skyWidget{
-
-    width: 150px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 767px) and (orientation: portrait) {

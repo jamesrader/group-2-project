@@ -31,7 +31,7 @@ $(document).ready(function () {
     var countryAirport="";
     var threeBack = moment().format("YYYY-MM-DD");
     var fourAhead = moment().format("YYYY-MM-DD");
-    var yourLoaction = ""
+    var yourLocation = ""
 
 
     function getCountriesList() {
@@ -166,35 +166,33 @@ $(document).ready(function () {
                         rowContent += "<td>" + wikiArray[0].holiday + "</td>";
                         rowContent += "<td><a href='" + wikiArray[0].link + "' target=blank>" + wikiArray[0].snippet + "</a></td>";
                         
-                        
+                        //set fourAhead to input date
+        fourAhead = moment(searchDay).format('YYYY-MM-DD');
+        //add four days
+        fourAhead = moment(fourAhead).add(4,'days').format('YYYY-MM-DD');
+        //set three back to input date
+        threeBack = moment(searchDay).format('YYYY-MM-DD');
+        //subtract three days
+        threeBack = moment(threeBack).subtract(3,'days').format('YYYY-MM-DD');
+        console.log(searchDay, threeBack, fourAhead);
+       
+        // makes sure threeback didn't go back in time
+        var now = moment();
+        if (moment(now).isAfter(threeBack)){
+            console.log("HERE!");
+            threeBack = moment(searchDay).format('YYYY-MM-DD');
+            fourAhead = moment(searchDay).add(7,'days').format('YYYY-MM-DD');
+            console.log("Four Ahead: " + fourAhead);
+            }
+
 
                         //sky scanner link widget
-                        var skyContent = $("<td id='" + searchAirport + "'>" + "Starting at: " + flightPrice + "</td>");
+                        var skyContent = $("<td>");
+                        var skyDiv = "<div class='flight-price' id='" + searchAirport + "'>" + "From: " + flightPrice + "</div>";
+                        skyDiv += "<div><a href='https://www.skyscanner.com/transport/flights/" + yourLocation + "/" + searchAirport + "/" + threeBack + "/" + fourAhead + "' target='blank'><img src='assets/images/flight-search-button.png' alt='Search Flights'></a></div>";
                         
-                        var skyDiv = $("<div></div")
-                        var scriptb = $("<script></script>")
-                        scriptb.attr("src", "https://widgets.skyscanner.net/widget-server/js/loader.js")
-                        skyDiv.attr("id","skyWidget")
-                        skyDiv.attr("data-skyscanner-widget", "SearchWidget")
-                        skyDiv.attr("data-locale","en-US");
-                        skyDiv.attr("data-params","colour:cirrus");
-                        skyDiv.attr("data-origin-iata-code", "'" +yourLoaction + "'");
-                        skyDiv.attr("data-destination-iata-code","'" +searchAirport+ "'");
-                        skyDiv.attr("data-flight-outbound-date",threeBack);
-                        skyDiv.attr("data-flight-inbound-date",fourAhead);
-                        skyDiv.attr("data-target","_blank");
-                        skyDiv.attr("data-responsive","false");
-                        skyDiv.attr("data-widget-scale",".5");
-                        skyDiv.attr("data-button-text-size","1.5");
-                        console.log(fourAhead + " four ahead");
-                        console.log(threeBack + " three back");
                         skyContent.append(skyDiv);
-                        skyContent.append(scriptb);
                                            
-                        
-                        
-                        
-                        //rowContent += "<td></td>";
 
                         var newColumn = $("<td id='" + code + "'>");
                         //code = code.slice(0,2);
@@ -225,7 +223,7 @@ $(document).ready(function () {
 
                         $("#" + code).mouseenter(function () {
                             //M.toast({html: "<iframe src='https://www.travel-advisory.info/widget-no-js?countrycode=NG' style='border:none; width:100%; height:250px;'>Country advisory by <a href='https://www.travel-advisory.info/'>https://www.travel-advisory.info</a></iframe>", classes: ""});
-                            M.toast({ html: "<iframe src='https://www.travel-advisory.info/widget-no-js?countrycode=" + this.id + "' style='border:none; width:100%; height:250px;'>Country advisory by <a href='https://www.travel-advisory.info/'>https://www.travel-advisory.info</a></iframe>", classes: "test", displayLength: "30000" });
+                            M.toast({ html: "<iframe src='https://www.travel-advisory.info/widget-no-js?countrycode=" + this.id + "' style='border:none; width:100%; height:250px;'>Country advisory by <a href='https://www.travel-advisory.info/'>https://www.travel-advisory.info</a></iframe>", classes: "advisory-container", displayLength: "30000" });
                         })
 
                         $("#" + code).mouseleave(function () {
@@ -269,7 +267,7 @@ $(document).ready(function () {
 
     }
 
-    function getFlights() {
+   /*  function getFlights() {
 
         var baseURL = "https://cors-anywhere.herokuapp.com/https://api.travelpayouts.com/v1/prices/cheap?origin=LAX&destination=LHR&depart_date=2019-06&return_date=2019-07&currency=usd&token=b36f62c9e9a63ded46a8dd2d6622e8a8";
 
@@ -290,27 +288,14 @@ $(document).ready(function () {
 
         })
 
-    }
+    } */
 
-    $("#date-search-button").on("click", function () {
+    $("#date-search-button").on("click", function (event) {
+        event.preventDefault();
         var inputDate = $("#date-enter").val();
         console.log(inputDate);
         
-        //set fourAhead to input date
-        fourAhead = inputDate;
-        //add four days
-        fourAhead = moment(fourAhead).add(4,'d').format('YYYY-MM-DD');
-        //set three back to input date
-        threeBack = inputDate;
-        //subtract three days
-        threeBack = moment(threeBack).subtract(3,'d').format('YYYY-MM-DD');
-       
-        // makes sure threeback didn't go back in time
-        var now = moment();
-        if (moment(now).isAfter(threeBack)){
-            threeBack = inputDate;
-            }
-
+        
         if (inputDate < today || inputDate > plusTwoYears) {
             M.toast({ html: "Valid dates are ONLY between today and 2 years from today.", classes: " red rounded" });
         } else {
@@ -363,8 +348,9 @@ $(document).ready(function () {
             //thisHome = myHome;
         }).done(function (result) {
             console.log(myHome + "done")
-            yourLoaction = myHome;
+            yourLocation = myHome;
             console.log(holidayDate);
+            searchDay = holidayDate;
 
             var departDate = moment(holidayDate, "YYYY-MM-DD").clone().subtract(3, 'days').format("YYYY-MM-DD");
 
