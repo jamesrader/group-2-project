@@ -34,6 +34,11 @@
     /* transform: translateX(50%) translateY(50%); */
 }
 
+#skyWidget{
+
+    width: 150px;
+}
+
   @media screen and (min-width: 0px) and (max-width: 767px) and (orientation: portrait) {
   html {
     transform: rotate(-90deg);

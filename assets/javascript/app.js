@@ -31,8 +31,9 @@ $(document).ready(function () {
     var count = 0;
     var roundedDollars="";
     var countryAirport="";
-
-
+    var threeBack = moment().format("YYYY-MM-DD");
+    var fourAhead = moment().format("YYYY-MM-DD");
+    var yourLoaction = ""
 
 
     function getCountriesList() {
@@ -166,7 +167,35 @@ $(document).ready(function () {
                         rowContent += "<td>" + wikiArray[0].date + "</td>";
                         rowContent += "<td>" + wikiArray[0].holiday + "</td>";
                         rowContent += "<td><a href='" + wikiArray[0].link + "' target=blank>" + wikiArray[0].snippet + "</a></td>";
-                        rowContent += "<td>" + flightPrice + "</td>";
+                        
+                        
+
+                        //sky scanner link widget
+                        var skyContent = $("<td id='" + searchAirport + "'>" + "Starting at: " + flightPrice + "</td>");
+                        
+                        var skyDiv = $("<div></div")
+                        var scriptb = $("<script></script>")
+                        scriptb.attr("src", "https://widgets.skyscanner.net/widget-server/js/loader.js")
+                        skyDiv.attr("id","skyWidget")
+                        skyDiv.attr("data-skyscanner-widget", "SearchWidget")
+                        skyDiv.attr("data-locale","en-US");
+                        skyDiv.attr("data-params","colour:cirrus");
+                        skyDiv.attr("data-origin-iata-code", "'" +yourLoaction + "'");
+                        skyDiv.attr("data-destination-iata-code","'" +searchAirport+ "'");
+                        skyDiv.attr("data-flight-outbound-date",threeBack);
+                        skyDiv.attr("data-flight-inbound-date",fourAhead);
+                        skyDiv.attr("data-target","_blank");
+                        skyDiv.attr("data-responsive","false");
+                        skyDiv.attr("data-widget-scale",".5");
+                        skyDiv.attr("data-button-text-size","1.5");
+                        console.log(fourAhead + " four ahead");
+                        console.log(threeBack + " three back");
+                        skyContent.append(skyDiv);
+                        skyContent.append(scriptb);
+                                           
+                        
+                        
+                        
                         //rowContent += "<td></td>";
 
                         var newColumn = $("<td id='" + code + "'>");
@@ -175,7 +204,7 @@ $(document).ready(function () {
                         var columnContent = "<div>" + riskLevel + "</div>";
                         newColumn.append(columnContent);
                         //rowContent += "<td id='risk-" + code +"'>" + riskLevel + "</td>";
-
+                        
                         newRow.append(rowContent);
 
                         var riskNumber = parseFloat(riskLevel)
@@ -189,8 +218,11 @@ $(document).ready(function () {
                         } else if (riskNumber > 4.5) {
                             newColumn.addClass("extreme-risk");
                         }
-
+                        
+                        //add skyscanner widget to table
+                        newRow.append(skyContent);
                         newRow.append(newColumn);
+                        
                         $("#table-body").append(newRow);
 
                         $("#" + code).mouseenter(function () {
@@ -266,6 +298,21 @@ $(document).ready(function () {
         event.preventDefault();
         var inputDate = $("#date-enter").val();
         console.log(inputDate);
+        
+        //set fourAhead to input date
+        fourAhead = inputDate;
+        //add four days
+        fourAhead = moment(fourAhead).add(4,'d').format('YYYY-MM-DD');
+        //set three back to input date
+        threeBack = inputDate;
+        //subtract three days
+        threeBack = moment(threeBack).subtract(3,'d').format('YYYY-MM-DD');
+       
+        // makes sure threeback didn't go back in time
+        var now = moment();
+        if (moment(now).isAfter(threeBack)){
+            threeBack = inputDate;
+            }
 
         if (inputDate < today || inputDate > plusTwoYears) {
             M.toast({ html: "Valid dates are ONLY between today and 2 years from today.", classes: " red rounded" });
@@ -275,6 +322,10 @@ $(document).ready(function () {
             month = moment(inputDate, "YYYY-MM-DD").format("MM");
             day = moment(inputDate, "YYYY-MM-DD").format("DD");
             getHolidays(month, day, year);
+            
+            //var now = moment();
+            
+
 
         }
 
@@ -315,7 +366,7 @@ $(document).ready(function () {
             //thisHome = myHome;
         }).done(function (result) {
             console.log(myHome + "done")
-
+            yourLoaction = myHome;
             console.log(holidayDate);
 
             var departDate = moment(holidayDate, "YYYY-MM-DD").clone().subtract(3, 'days').format("YYYY-MM-DD");
@@ -358,7 +409,7 @@ $(document).ready(function () {
     //getFlights();
 
     //getTravelAdvisories();
-
+ 
 
 
 })
