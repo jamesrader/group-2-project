@@ -191,34 +191,8 @@ $(document).ready(function () {
                         var skyDiv = "<div class='flight-price' id='" + searchAirport + "'>" + "From: " + flightPrice + "</div>";
                         skyDiv += "<div><a href='https://www.skyscanner.com/transport/flights/" + yourLocation + "/" + searchAirport + "/" + threeBack + "/" + fourAhead + "' target='blank'><img src='assets/images/flight-search-button.png' alt='Search Flights'></a></div>";
                         
-                        
-                        //skyDiv.attr("href", "https://www.skyscanner.com/transport/flights/phx/lhr/190422/190429");
-                        //skyDiv.attr("target", "blank");
-
-                       /*  var scriptb = $("<script></script>")
-                        scriptb.attr("src", "https://widgets.skyscanner.net/widget-server/js/loader.js")
-                        skyDiv.attr("id","skyWidget")
-                        skyDiv.attr("data-skyscanner-widget", "SearchWidget")
-                        skyDiv.attr("data-locale","en-US");
-                        skyDiv.attr("data-params","colour:cirrus");
-                        skyDiv.attr("data-origin-iata-code", "'" +yourLoaction + "'");
-                        skyDiv.attr("data-destination-iata-code","'" +searchAirport+ "'");
-                        skyDiv.attr("data-flight-outbound-date",threeBack);
-                        skyDiv.attr("data-flight-inbound-date",fourAhead);
-                        skyDiv.attr("data-target","_blank");
-                        skyDiv.attr("data-responsive","false");
-                        skyDiv.attr("data-widget-scale",".5");
-                        skyDiv.attr("data-button-text-size","1.5");
-                        console.log(fourAhead + " four ahead");
-                        console.log(threeBack + " three back"); */
-                        //skyDiv.append(skyButton);
                         skyContent.append(skyDiv);
-                        //skyContent.append(scriptb);
                                            
-                        
-                        
-                        
-                        //rowContent += "<td></td>";
 
                         var newColumn = $("<td id='" + code + "'>");
                         //code = code.slice(0,2);

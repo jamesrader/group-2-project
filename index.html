@@ -55,9 +55,9 @@
                 </h5>
 
                 <!--input form and a date/holiday search-->
-                <div class="row center">
-                    <div class="container">
-                        <form id="input-form">
+                <form id="input-form">
+                    <div class="row center">
+                        <div class="container">
                             <div class="row center">
 
                                 <div class=" row center input-field grey lighten-3 text-lighten-3"
@@ -70,15 +70,16 @@
                                     <input type="date" id="date-enter" style="text-align: center" min="2019-04-03"
                                         max="2021-04-03" /><br />
                                 </div>
-                        </form>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <!--search button-->
-                <div class="row center">
-                    <a id="date-search-button" class="btn-large yellow-text waves-effect waves-light"
-                        style="background-color: rgb(2, 61, 139); font-size: 2rem; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-radius: 1Rem;">Get
-                        Holiday</a>
-                </div>
+                    <!--search button-->
+                    <div class="row center">
+                        <button id="date-search-button" class="btn-large yellow-text waves-effect waves-light"
+                            style="background-color: rgb(2, 61, 139); font-size: 2rem; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-radius: 1Rem;"
+                            type="submit">Get Holiday</button>
+                    </div>
+                </form>
                 <br /><br />
             </div>
         </div>
@@ -133,35 +134,35 @@
         </div>
     </div>
 
-        <div class="parallax-container valign-wrapper">
-            <div class="parallax">
-                <img src="assets/images/background3.jpg" alt="Unsplashed background img 3" />
+    <div class="parallax-container valign-wrapper">
+        <div class="parallax">
+            <img src="assets/images/background3.jpg" alt="Unsplashed background img 3" />
+        </div>
+    </div>
+    <!--Team bio and disclaimer-->
+    <footer class="page-footer" style="background-color:  rgb(238, 193, 124)">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5 class="black-text">Dev Team Bio</h5>
+                    <p class="black-text text-lighten-5">
+                        We are a team of coding bootcamp students creating this page for a class project. Please
+                        enjoy the holiday info, however we are not affiliated with any travel, flight, or booking
+                        agencies.
+                    </p>
+                </div>
             </div>
         </div>
-        <!--Team bio and disclaimer-->
-        <footer class="page-footer" style="background-color:  rgb(238, 193, 124)">
+        <!--citing framework source-->
+        <div class="footer-copyright">
             <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h5 class="black-text">Dev Team Bio</h5>
-                        <p class="black-text text-lighten-5">
-                            We are a team of coding bootcamp students creating this page for a class project. Please
-                            enjoy the holiday info, however we are not affiliated with any travel, flight, or booking
-                            agencies.
-                        </p>
-                    </div>
-                </div>
+                Framework by
+                <a class="yellow-text text-lighten-3" href="http://materializecss.com">Materialize</a>
             </div>
-            <!--citing framework source-->
-            <div class="footer-copyright">
-                <div class="container">
-                    Framework by
-                    <a class="yellow-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-                </div>
 
-                <!--  Scripts-->
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            </div>
+            <!--  Scripts-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        </div>
 </body>
 
 </html>
