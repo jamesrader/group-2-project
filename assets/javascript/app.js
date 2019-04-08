@@ -262,7 +262,8 @@ $(document).ready(function () {
 
     }
 
-    $("#date-search-button").on("click", function () {
+    $("#date-search-button").on("click", function (event) {
+        event.preventDefault();
         var inputDate = $("#date-enter").val();
         console.log(inputDate);
 
