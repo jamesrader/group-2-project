@@ -37,7 +37,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AE": {
@@ -64,7 +64,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AF": {
@@ -91,7 +91,7 @@ var advisories = {
                 "situation": {
                     "sources": 9,
                     "rating": "5.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AG": {
@@ -118,7 +118,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AI": {
@@ -145,7 +145,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AL": {
@@ -172,7 +172,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AM": {
@@ -199,7 +199,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AO": {
@@ -226,7 +226,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AR": {
@@ -253,7 +253,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AS": {
@@ -280,7 +280,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AT": {
@@ -307,7 +307,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AU": {
@@ -334,7 +334,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AW": {
@@ -361,7 +361,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "AZ": {
@@ -388,7 +388,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BA": {
@@ -415,7 +415,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BB": {
@@ -442,7 +442,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.7",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BD": {
@@ -468,8 +468,8 @@ var advisories = {
                 },
                 "situation": {
                     "sources": 6,
-                    "rating": "3.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "rating": "2.7",
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BE": {
@@ -496,7 +496,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BF": {
@@ -523,7 +523,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "3.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BG": {
@@ -550,7 +550,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BH": {
@@ -577,7 +577,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BI": {
@@ -604,7 +604,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "4.7",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BJ": {
@@ -631,7 +631,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BL": {
@@ -658,7 +658,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BM": {
@@ -685,7 +685,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BN": {
@@ -712,7 +712,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BO": {
@@ -739,7 +739,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BR": {
@@ -766,7 +766,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BS": {
@@ -793,7 +793,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BT": {
@@ -820,7 +820,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BW": {
@@ -847,7 +847,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BY": {
@@ -874,7 +874,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "BZ": {
@@ -901,7 +901,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CA": {
@@ -928,7 +928,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CC": {
@@ -955,7 +955,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CD": {
@@ -982,7 +982,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "3.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CF": {
@@ -1009,7 +1009,7 @@ var advisories = {
                 "situation": {
                     "sources": 9,
                     "rating": "4.9",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CG": {
@@ -1036,7 +1036,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CH": {
@@ -1063,7 +1063,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CI": {
@@ -1090,7 +1090,7 @@ var advisories = {
                 "situation": {
                     "sources": 7,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CK": {
@@ -1117,7 +1117,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CL": {
@@ -1144,7 +1144,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CM": {
@@ -1171,7 +1171,7 @@ var advisories = {
                 "situation": {
                     "sources": 7,
                     "rating": "2.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CN": {
@@ -1198,7 +1198,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CO": {
@@ -1225,7 +1225,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CR": {
@@ -1252,7 +1252,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CU": {
@@ -1279,7 +1279,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "2.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CV": {
@@ -1306,7 +1306,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CX": {
@@ -1333,7 +1333,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CY": {
@@ -1360,7 +1360,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "CZ": {
@@ -1387,7 +1387,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "DE": {
@@ -1414,7 +1414,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "DJ": {
@@ -1441,7 +1441,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "DK": {
@@ -1468,7 +1468,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "DM": {
@@ -1495,7 +1495,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "DO": {
@@ -1522,7 +1522,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "DZ": {
@@ -1549,7 +1549,7 @@ var advisories = {
                 "situation": {
                     "sources": 9,
                     "rating": "2.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "EC": {
@@ -1576,7 +1576,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "EE": {
@@ -1603,7 +1603,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "EG": {
@@ -1630,7 +1630,7 @@ var advisories = {
                 "situation": {
                     "sources": 9,
                     "rating": "3.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "EH": {
@@ -1657,7 +1657,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "ER": {
@@ -1684,7 +1684,7 @@ var advisories = {
                 "situation": {
                     "sources": 7,
                     "rating": "3.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "ES": {
@@ -1711,7 +1711,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "ET": {
@@ -1738,7 +1738,7 @@ var advisories = {
                 "situation": {
                     "sources": 7,
                     "rating": "2.9",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "FI": {
@@ -1765,7 +1765,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "FJ": {
@@ -1792,7 +1792,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "FK": {
@@ -1819,7 +1819,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "FM": {
@@ -1846,7 +1846,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "FO": {
@@ -1873,7 +1873,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "FR": {
@@ -1900,7 +1900,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GA": {
@@ -1927,7 +1927,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GB": {
@@ -1954,7 +1954,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GD": {
@@ -1981,7 +1981,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GE": {
@@ -2008,7 +2008,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GF": {
@@ -2035,7 +2035,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GG": {
@@ -2062,7 +2062,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GH": {
@@ -2089,7 +2089,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GI": {
@@ -2116,7 +2116,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GL": {
@@ -2143,7 +2143,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GM": {
@@ -2170,7 +2170,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GN": {
@@ -2197,7 +2197,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.7",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GP": {
@@ -2224,7 +2224,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GQ": {
@@ -2251,7 +2251,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GR": {
@@ -2278,7 +2278,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GT": {
@@ -2305,7 +2305,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GU": {
@@ -2332,7 +2332,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GW": {
@@ -2359,7 +2359,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "3.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GY": {
@@ -2386,7 +2386,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "HK": {
@@ -2413,7 +2413,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.7",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "HN": {
@@ -2440,7 +2440,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.7",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "HR": {
@@ -2467,7 +2467,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "HT": {
@@ -2494,7 +2494,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "4.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "HU": {
@@ -2521,7 +2521,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "ID": {
@@ -2548,7 +2548,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "IE": {
@@ -2575,7 +2575,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "IL": {
@@ -2602,7 +2602,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "3.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "IM": {
@@ -2629,7 +2629,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "IN": {
@@ -2656,7 +2656,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.7",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "IQ": {
@@ -2683,7 +2683,7 @@ var advisories = {
                 "situation": {
                     "sources": 9,
                     "rating": "4.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "IR": {
@@ -2710,7 +2710,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "3.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "IS": {
@@ -2737,7 +2737,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "IT": {
@@ -2764,7 +2764,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "JE": {
@@ -2791,7 +2791,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "JM": {
@@ -2818,7 +2818,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "JO": {
@@ -2845,7 +2845,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "JP": {
@@ -2872,7 +2872,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KE": {
@@ -2899,7 +2899,7 @@ var advisories = {
                 "situation": {
                     "sources": 7,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KG": {
@@ -2926,7 +2926,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KH": {
@@ -2953,7 +2953,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KI": {
@@ -2980,7 +2980,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KM": {
@@ -3007,7 +3007,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KN": {
@@ -3034,7 +3034,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KP": {
@@ -3061,7 +3061,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "4.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KR": {
@@ -3088,7 +3088,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KW": {
@@ -3115,7 +3115,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KY": {
@@ -3142,7 +3142,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "KZ": {
@@ -3169,7 +3169,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LA": {
@@ -3196,7 +3196,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LB": {
@@ -3223,7 +3223,7 @@ var advisories = {
                 "situation": {
                     "sources": 9,
                     "rating": "3.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LC": {
@@ -3250,7 +3250,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LI": {
@@ -3277,7 +3277,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LK": {
@@ -3304,7 +3304,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LR": {
@@ -3331,7 +3331,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LS": {
@@ -3358,7 +3358,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LT": {
@@ -3385,7 +3385,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LU": {
@@ -3412,7 +3412,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LV": {
@@ -3439,7 +3439,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "LY": {
@@ -3466,7 +3466,7 @@ var advisories = {
                 "situation": {
                     "sources": 9,
                     "rating": "5.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MA": {
@@ -3493,7 +3493,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MC": {
@@ -3520,7 +3520,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MD": {
@@ -3547,7 +3547,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "ME": {
@@ -3574,7 +3574,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MF": {
@@ -3601,7 +3601,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MG": {
@@ -3628,7 +3628,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MH": {
@@ -3655,7 +3655,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MK": {
@@ -3682,7 +3682,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "ML": {
@@ -3709,7 +3709,7 @@ var advisories = {
                 "situation": {
                     "sources": 9,
                     "rating": "4.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MM": {
@@ -3736,7 +3736,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MN": {
@@ -3763,7 +3763,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MO": {
@@ -3790,7 +3790,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MP": {
@@ -3817,7 +3817,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MQ": {
@@ -3844,7 +3844,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MR": {
@@ -3871,7 +3871,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "3.9",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MS": {
@@ -3898,7 +3898,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MT": {
@@ -3925,7 +3925,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MU": {
@@ -3952,7 +3952,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MV": {
@@ -3979,7 +3979,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MW": {
@@ -4006,7 +4006,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MX": {
@@ -4033,7 +4033,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MY": {
@@ -4060,7 +4060,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "MZ": {
@@ -4087,7 +4087,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NA": {
@@ -4114,7 +4114,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NC": {
@@ -4141,7 +4141,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NE": {
@@ -4168,7 +4168,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "3.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NF": {
@@ -4195,7 +4195,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NG": {
@@ -4222,7 +4222,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "3.1",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NI": {
@@ -4249,7 +4249,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "3.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NL": {
@@ -4276,7 +4276,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NO": {
@@ -4303,7 +4303,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NP": {
@@ -4330,7 +4330,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NU": {
@@ -4357,7 +4357,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "NZ": {
@@ -4384,7 +4384,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "OM": {
@@ -4411,7 +4411,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PA": {
@@ -4438,7 +4438,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PE": {
@@ -4465,7 +4465,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PF": {
@@ -4492,7 +4492,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PG": {
@@ -4519,7 +4519,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PH": {
@@ -4546,7 +4546,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PK": {
@@ -4573,7 +4573,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "3.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PL": {
@@ -4600,7 +4600,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PM": {
@@ -4627,7 +4627,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PN": {
@@ -4654,7 +4654,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PR": {
@@ -4681,7 +4681,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PS": {
@@ -4708,7 +4708,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "3.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PT": {
@@ -4735,7 +4735,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PW": {
@@ -4762,7 +4762,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "PY": {
@@ -4789,7 +4789,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "QA": {
@@ -4816,7 +4816,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "RE": {
@@ -4843,7 +4843,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.7",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "RO": {
@@ -4870,7 +4870,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "RS": {
@@ -4897,7 +4897,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "RU": {
@@ -4924,7 +4924,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "RW": {
@@ -4951,7 +4951,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SA": {
@@ -4978,7 +4978,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SB": {
@@ -5005,7 +5005,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SC": {
@@ -5032,7 +5032,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SD": {
@@ -5059,7 +5059,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "3.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SE": {
@@ -5086,7 +5086,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SG": {
@@ -5113,7 +5113,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SH": {
@@ -5140,7 +5140,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SI": {
@@ -5167,7 +5167,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SJ": {
@@ -5194,7 +5194,7 @@ var advisories = {
                 "situation": {
                     "sources": 0,
                     "rating": "0.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SK": {
@@ -5221,7 +5221,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SL": {
@@ -5248,7 +5248,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SM": {
@@ -5275,7 +5275,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SN": {
@@ -5302,7 +5302,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SO": {
@@ -5329,7 +5329,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "5.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SR": {
@@ -5356,7 +5356,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "ST": {
@@ -5383,7 +5383,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.7",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SV": {
@@ -5410,7 +5410,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SY": {
@@ -5437,7 +5437,7 @@ var advisories = {
                 "situation": {
                     "sources": 9,
                     "rating": "5.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "SZ": {
@@ -5464,7 +5464,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TC": {
@@ -5491,7 +5491,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TD": {
@@ -5518,7 +5518,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "3.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TG": {
@@ -5545,7 +5545,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TH": {
@@ -5572,7 +5572,7 @@ var advisories = {
                 "situation": {
                     "sources": 6,
                     "rating": "2.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TJ": {
@@ -5599,7 +5599,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TL": {
@@ -5626,7 +5626,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TM": {
@@ -5653,7 +5653,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TN": {
@@ -5680,7 +5680,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TO": {
@@ -5707,7 +5707,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TR": {
@@ -5734,7 +5734,7 @@ var advisories = {
                 "situation": {
                     "sources": 7,
                     "rating": "3.1",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TT": {
@@ -5761,7 +5761,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TV": {
@@ -5788,7 +5788,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TW": {
@@ -5815,7 +5815,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "TZ": {
@@ -5842,7 +5842,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "UA": {
@@ -5869,7 +5869,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "2.9",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "UG": {
@@ -5896,7 +5896,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "US": {
@@ -5923,7 +5923,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "UY": {
@@ -5950,7 +5950,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "UZ": {
@@ -5977,7 +5977,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "1.8",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "VA": {
@@ -6004,7 +6004,7 @@ var advisories = {
                 "situation": {
                     "sources": 0,
                     "rating": "0.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "VC": {
@@ -6031,7 +6031,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.3",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "VE": {
@@ -6058,7 +6058,7 @@ var advisories = {
                 "situation": {
                     "sources": 8,
                     "rating": "4.4",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "VG": {
@@ -6085,7 +6085,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "VI": {
@@ -6112,7 +6112,7 @@ var advisories = {
                 "situation": {
                     "sources": 1,
                     "rating": "1.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "VN": {
@@ -6139,7 +6139,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "VU": {
@@ -6166,7 +6166,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "WF": {
@@ -6193,7 +6193,7 @@ var advisories = {
                 "situation": {
                     "sources": 0,
                     "rating": "0.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "WS": {
@@ -6220,7 +6220,7 @@ var advisories = {
                 "situation": {
                     "sources": 3,
                     "rating": "1.7",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "YE": {
@@ -6247,7 +6247,7 @@ var advisories = {
                 "situation": {
                     "sources": 9,
                     "rating": "5.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "YT": {
@@ -6274,7 +6274,7 @@ var advisories = {
                 "situation": {
                     "sources": 2,
                     "rating": "2.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "ZA": {
@@ -6301,7 +6301,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "ZM": {
@@ -6328,7 +6328,7 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.2",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "ZW": {
@@ -6355,14 +6355,14 @@ var advisories = {
                 "situation": {
                     "sources": 5,
                     "rating": "2.6",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 }
             },
             "GS": {
                 "situation": {
                     "sources": 0,
                     "rating": "0.0",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 },
                 "lang": {
                     "de": {
@@ -6377,7 +6377,7 @@ var advisories = {
                 "situation": {
                     "sources": 4,
                     "rating": "1.5",
-                    "last_checked": "2019-04-03 07:26:11"
+                    "last_checked": "2019-04-08 07:25:09"
                 },
                 "lang": {
                     "de": {
