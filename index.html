@@ -9,12 +9,6 @@
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-    <!--     <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/"
-    type="text/css"
-    rel="stylesheet"
-    media="screen,projection"
-  /> -->
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css"
         rel="stylesheet" media="screen,projection" />
@@ -33,20 +27,11 @@
 </head>
 
 <body class="container-fluid" style="background-color:  rgb(238, 193, 124)!important">
-    <nav class="lighten-3" style="background-color:  rgb(238, 193, 124)!important" role="navigation">
+    <nav class="lighten-3" style="background-color:  rgb(238, 193, 124)" role="navigation">
         <div class="nav-wrapper container">
-            <img id="logo-div" src="assets/images/logo2.png"></img>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">Navbar Link</a></li>
-            </ul>
-
-            <ul id="nav-mobile" class="sidenav ">
-                <li"><a href="#">Navbar Link</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <img id="logo-div" src="assets/images/logo.png">
         </div>
     </nav>
-
     <div id="index-banner" class="parallax-container center">
         <div class="section no-pad-bot">
             <div class="container" style="width: 42rem">
@@ -62,8 +47,9 @@
                     </h5>
                 </div>
 
+                <form id="input-form">
                 <div class="row center">
-                    <form id="input-form">
+                    
                         <div class=" row center input-field grey lighten-3 text-lighten-3"
                             style="width:50%; border-top-left-radius: 10px; border-top-right-radius: 10px;">
 
@@ -74,15 +60,15 @@
                             <input type="date" id="date-enter" style="text-align: center" min="2019-04-03"
                                 max="2021-04-03" /><br />
                         </div>
-
                 </div>
 
                 <div class="row center">
-                    <button id="date-search-button" class="btn-large yellow-text waves-effect waves-light"
-                        style="background-color: rgb(2, 61, 139); font-size: 2rem; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-radius: 1Rem;" type="submit">Get
-                        Holiday</button>
+                        <button id="date-search-button" class="btn-large yellow-text waves-effect waves-light"
+                            style="background-color: rgb(2, 61, 139); font-size: 2rem; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; border-radius: 1Rem;"
+                            type="submit">Get Holiday</button>
                 </div>
-                    </form>
+            </form>
+
                 <br /><br />
             </div>
         </div>
@@ -91,94 +77,98 @@
         </div>
     </div>
 
-    <div class="container center" style="font-family: Georgia, 'Times New Roman', Times, serif; background-color:  rgb(238, 193, 124)">
-     
+    <div class="container center"
+        style="font-family: Georgia, 'Times New Roman', Times, serif; background-color:  rgb(238, 193, 124)">
 
-        
 
-      <div class="section center">
-        <!--   Icon Section   -->
-        <div class="row">
-          <table  style="border-end-end-radius: 10px">
-            <thead class="black-text center" style="background: rgb(85, 153, 180); border-radius: 2Rem">
-              <tr>
-                <th style="text-align: center; border-radius: 10px">Flag</th>
-                <th style="text-align: center; border-radius: 10px">Country</th>
-                <th style="text-align: center; border-radius: 10px">Date</th>
-                <th style="text-align: center; border-radius: 10px">Holiday Name</th>
-                <th style="text-align: center; border-radius: 10px">Wiki Page Link</th>
-                <th style="text-align: center; border-radius: 10px">Travel Info</th>
-                <th style="text-align: center; border-radius: 10px">Travel Risk</th>
-              </tr>
-            </thead>
-            <tbody id="table-body">
-            </tbody>
-          </table>
-        </div>
-    </div>
 
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light yellow-text">
-                        Life is too short not to discover!
-                    </h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax">
-            <img src="assets/images/paris.jpg" alt="Unsplashed background img 2" />
-        </div>
-    </div>
 
-    <div class="container-fluid" style="padding-left: 5rem; padding-right: 5rem; background-color:  rgb(238, 193, 124)">
-        <div class="section">
+        <div class="section center">
+            <!--   Icon Section   -->
             <div class="row">
-                <div class="col s12 center">
-                    <h3><i class="mdi-content-send brown-text"></i></h3>
-                    <h4>Contact Us</h4>
-                    <p class="left-align light">
-                        <ul>
-                            <li>jakemg12@gmail.com</li>
-                            <li>james.rader@cox.net</li>
-                            <li>damonkd@gmail.com</li>
-                        </ul>
-                    </p>
-                </div>
+                <table style="border-end-end-radius: 10px">
+                    <thead class="black-text center" style="background: rgb(85, 153, 180); border-radius: 2Rem">
+                        <tr>
+                            <th style="text-align: center; border-radius: 10px">Flag</th>
+                            <th style="text-align: center; border-radius: 10px">Country</th>
+                            <th style="text-align: center; border-radius: 10px">Date</th>
+                            <th style="text-align: center; border-radius: 10px">Holiday Name</th>
+                            <th style="text-align: center; border-radius: 10px">Wiki Page Link</th>
+                            <th style="text-align: center; border-radius: 10px">Travel Info</th>
+                            <th style="text-align: center; border-radius: 10px">Travel Risk</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 
-    <div class="parallax-container valign-wrapper">
-        <div class="parallax">
-            <img src="assets/images/background3.jpg" alt="Unsplashed background img 3" />
+        <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <div class="row center">
+                        <h5 class="header col s12 light yellow-text">
+                            Life is too short not to discover!
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="parallax">
+                <img src="assets/images/paris.jpg" alt="Unsplashed background img 2" />
+            </div>
         </div>
-    </div>
 
-    <footer class="page-footer" style="background-color:  rgb(238, 193, 124)">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h5 class="black-text">Dev Team Bio</h5>
-                    <p class="black-text text-lighten-5">
-                        We are a team of coding bootcamp students creating this page for a class project. Please enjoy
-                        the holiday info, however we are not affiliated with any travel, flight, or booking agencies.
-                    </p>
+        <div class="container-fluid"
+            style="padding-left: 5rem; padding-right: 5rem; background-color:  rgb(238, 193, 124)">
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 center">
+                        <h4>Contact Us</h4>
+                        <p class="left-align light">
+                            <ul>
+                                <li>jakemg12@gmail.com</li>
+                                <li>james.rader@cox.net</li>
+                                <li>damonkd@gmail.com</li>
+                            </ul>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright">
+
+        <div class="parallax-container valign-wrapper">
+            <div class="parallax">
+                <img src="assets/images/background3.jpg" alt="Unsplashed background img 3" />
+            </div>
+        </div>
+
+        <footer class="page-footer" style="background-color:  rgb(238, 193, 124)">
             <div class="container">
-                Framework by
-                <a class="yellow-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                <div class="row">
+                    <div class="col">
+                        <h5 class="black-text">Dev Team Bio</h5>
+                        <p class="black-text text-lighten-5">
+                            We are a team of coding bootcamp students creating this page for a class project. Please
+                            enjoy
+                            the holiday info, however we are not affiliated with any travel, flight, or booking
+                            agencies.
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+            <div class="footer-copyright">
+                <div class="container">
+                    Framework by
+                    <a class="yellow-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                </div>
+            </div>
+        </footer>
 
-    <!--  Scripts-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!--script src="assets/javascript/init.js"></script>-->
+        <!--  Scripts-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- <script src="assets/javascript/init.js"></script> -->
 </body>
 
 </html>
