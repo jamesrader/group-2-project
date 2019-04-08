@@ -21,3 +21,32 @@
     background-color: rgb(182, 66, 66);
     color: #fff;
 }
+
+.test {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+#toast-container {
+    min-width: 10%;
+    top: 40%;
+    right: 25%;
+    /* transform: translateX(50%) translateY(50%); */
+}
+
+#skyWidget{
+
+    width: 150px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) and (orientation: portrait) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}

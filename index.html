@@ -11,12 +11,12 @@
       rel="stylesheet"
     />
 
-    <link
+    <!--link
     href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/"
     type="text/css"
     rel="stylesheet"
     media="screen,projection"
-  />
+    />-->
 
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
@@ -39,12 +39,14 @@
   </head>
   
   <body>
+    <!--navbar with custom logo-->
       <nav class="lighten-3" style="background-color:  rgb(238, 193, 124)!important" role="navigation">
           <div class="nav-wrapper container">
             <img id="logo-div" src="assets/images/logo2.png"></img>
           </div>
       </nav>
 
+      <!--banner with introduction dialog-->
     <div id="index-banner" class="parallax-container center">
       <div class="section no-pad-bot">
         <div class="container center">
@@ -56,7 +58,7 @@
               A fast and easy way to view and access holidays or cultural ceremonies from all over the world!
             </h5>
           
-
+       <!--input form and a date/holiday search-->
           <div class="row center">
             <div class="container">
                 <form id="input-form">
@@ -69,7 +71,7 @@
                 </form>
               </div>
           </div>
-          
+          <!--search button-->
           <div class="row center">
             <a
               id="date-search-button"
@@ -86,18 +88,19 @@
       </div>
     </div>
 
+    <!--output table for displaying query data from the date/holiday searched-->
     <div class="container-fluid center" style="font-family: Georgia, 'Times New Roman', Times, serif; background-color:  rgb(238, 193, 124)">
       <div class="section center" style="padding: 10px">
           <table  style="border-end-end-radius: 10px">
             <thead class="black-text center" style="background: rgb(85, 153, 180); border-radius: 10px">
               <tr>
-                <th style="text-align: center; border-radius: 10px">Flag</th>
-                <th style="text-align: center; border-radius: 10px">Country</th>
-                <th style="text-align: center; border-radius: 10px">Date</th>
-                <th style="text-align: center; border-radius: 10px">Holiday Name</th>
-                <th style="text-align: center; border-radius: 10px">Wiki Page Link</th>
-                <th style="text-align: center; border-radius: 10px">Travel Info</th>
-                <th style="text-align: center; border-radius: 10px">Travel Risk</th>
+                <th style="text-align: center; border-radius: 5px">Flag</th>
+                <th style="text-align: center; border-radius: 5px">Country</th>
+                <th style="text-align: center; border-radius: 5px">Date</th>
+                <th style="text-align: center; border-radius: 5px">Holiday Name</th>
+                <th style="text-align: center; border-radius: 5px">Wiki Page Link</th>
+                <th style="text-align: center; border-radius: 5px">Travel Info</th>
+                <th style="text-align: center; border-radius: 5px">Travel Risk</th>
               </tr>
             </thead>
             <tbody id="table-body">
@@ -107,18 +110,11 @@
     </div>
 
     <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-          <div class="row center">
-            <h5 class="header col s12 light yellow-text" style="text-align: center">
-              Life is too short not to discover more!
-            </h5>
-          </div>
-      </div>
       <div class="parallax">
         <img src="assets/images/paris.jpg" alt="Unsplashed background img 2" />
       </div>
     </div>
-
+<!--basic email contact field-->
     <div class="container-fluid" style="padding-left: 5rem; padding-right: 5rem; background-color:  rgb(238, 193, 124)">
       <div class="section">
         <div class="row">
@@ -142,7 +138,7 @@
         <img src="assets/images/background3.jpg" alt="Unsplashed background img 3" />
       </div>
     </div>
-
+<!--Team bio and disclaimer-->
     <footer class="page-footer" style="background-color:  rgb(238, 193, 124)">
       <div class="container">
         <div class="row">
@@ -154,6 +150,7 @@
           </div>
         </div>
       </div>
+      <!--citing framework source-->
       <div class="footer-copyright">
         <div class="container">
           Framework by
@@ -166,6 +163,5 @@
 
     <!--  Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!--script src="assets/javascript/init.js"></script>-->
   </body>
 </html>

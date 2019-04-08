@@ -8,6 +8,8 @@
 })(jQuery); // end of jQuery name space
 
 
+
+
 $(document).ready(function () {
 
     var database = firebase.database();
@@ -21,17 +23,10 @@ $(document).ready(function () {
     var plusTwoYears = moment().add(2, "years").format("YYYY-MM-DD");
     var holidaysFound = [];
     var holidayWasFound = false;
-    var wikiSnippet="";
-    var wikiLink="";
-    var wikiHoliday="";
-    var wikiDate="";
     var countryCode = "";
     var count = 0;
-    var roundedDollars="";
-    var countryAirport="";
-    var threeBack = moment().format("YYYY-MM-DD");
-    var fourAhead = moment().format("YYYY-MM-DD");
-    var yourLoaction = ""
+
+
 
 
     function getCountriesList() {
@@ -64,13 +59,14 @@ $(document).ready(function () {
         for (i = 0; i < holidayCountries.length; i++) {
             countryCode = holidayCountries[i].code;
             var countryName = holidayCountries[i].name;
-            countryAirport = holidayCountries[i].airport;
             var queryCountry = "&country=" + countryCode;
             var queryURL = baseURL + apiKey + queryDate + queryCountry;
+            console.log(queryURL);
 
             //The call to search for holidays on specific date
-            holidayCall(queryURL, countryName, countryCode, countryAirport, function (allHolidaysInfo) {
+            holidayCall(queryURL, countryName, countryCode, function (allHolidaysInfo) {
                 count++;
+                console.log(count);
                 if (count === holidayCountries.length) {
                     console.log(holidaysFound);
                     console.log(holidaysFound.length);
@@ -100,109 +96,55 @@ $(document).ready(function () {
 
     }
 
-    function holidayCall(queryString, country, code, searchAirport, callback) {
-        var wikiArray=[];
+    function holidayCall(queryString, country, code, callback) {
         $.ajax({
             url: queryString,
             method: "GET"
         }).done(function (data) {
-            console.log(data.holidays);
-            console.log(data.holidays.length);
+            
             for (i = 0; i < data.holidays.length; i++) {
                 holidayWasFound = true;
                 //dataName.push(data.holidays[i].name);
                 var dataDate = data.holidays[i].date;
 
-                
-
-                console.log(i);
                 //getWiki(data.holidays[i].name, data.holidays[i].date, country, function (wikiInfo) {
-                    getWiki(data.holidays[i].name, dataDate, country, async function (wikiInfo) {
+                    getWiki(data.holidays[i].name, dataDate, country, function (wikiInfo) {
 
-                        wikiSnippet = wikiInfo[0];
-                        wikiLink = wikiInfo[1];
-                        wikiHoliday = wikiInfo[2];
-                        wikiDate = wikiInfo[3];
+                    if (advisories.advisorydata.data[code]) {
+                        var riskLevel = advisories.advisorydata.data[code].situation.rating;
+                    } else {
+                        var riskLevel = "No data.";
+                    }
 
 
-                        var wikiStuff = {
+                        /* var holidayObject = {
                             "country": country,
-                            /* "holiday": data.holidays[i].name,
-                            "date": data.holidays[i].date, */
                             "holiday": wikiInfo[2],
                             "date": wikiInfo[3],
-                            "snippet": wikiInfo[0],
-                            "link": wikiInfo[1]
+                            "wiki-snippet": wikiInfo[0],
+                            "wiki-link": wikiInfo[1],
+                            "travel-risk": riskLevel
                         }
-                        wikiArray.push(wikiStuff);
-                        
-                    
-
-                            getFlightPrices(searchAirport, dataDate, function(flightCost) {
-                            buildObjectAndTable(flightCost);
-                        })
-
-                })
-            
-               
-
-                    function buildObjectAndTable(flightPrice){
-                        
-
-                        if (advisories.advisorydata.data[code]) {
-                            var riskLevel = advisories.advisorydata.data[code].situation.rating;
-                        } else {
-                            var riskLevel = "No data.";
-                        }
-
-                        
+                        holidaysFound.push(holidayObject); */
 
                         var newRow = $("<tr>");
                         var rowContent = "<td><img src='https://www.countryflags.io/" + code + "/flat/48.png'></td>";
                         rowContent += "<td>" + country + "</td>";
                         /* rowContent += "<td>" + data.holidays[i].date + "</td>";
                         rowContent += "<td>" + data.holidays[i].name + "</td>"; */
-                        rowContent += "<td>" + wikiArray[0].date + "</td>";
-                        rowContent += "<td>" + wikiArray[0].holiday + "</td>";
-                        rowContent += "<td><a href='" + wikiArray[0].link + "' target=blank>" + wikiArray[0].snippet + "</a></td>";
-                        
-                        
-
-                        //sky scanner link widget
-                        var skyContent = $("<td id='" + searchAirport + "'>" + "Starting at: " + flightPrice + "</td>");
-                        
-                        var skyDiv = $("<div></div")
-                        var scriptb = $("<script></script>")
-                        scriptb.attr("src", "https://widgets.skyscanner.net/widget-server/js/loader.js")
-                        skyDiv.attr("id","skyWidget")
-                        skyDiv.attr("data-skyscanner-widget", "SearchWidget")
-                        skyDiv.attr("data-locale","en-US");
-                        skyDiv.attr("data-params","colour:cirrus");
-                        skyDiv.attr("data-origin-iata-code", "'" +yourLoaction + "'");
-                        skyDiv.attr("data-destination-iata-code","'" +searchAirport+ "'");
-                        skyDiv.attr("data-flight-outbound-date",threeBack);
-                        skyDiv.attr("data-flight-inbound-date",fourAhead);
-                        skyDiv.attr("data-target","_blank");
-                        skyDiv.attr("data-responsive","false");
-                        skyDiv.attr("data-widget-scale",".5");
-                        skyDiv.attr("data-button-text-size","1.5");
-                        console.log(fourAhead + " four ahead");
-                        console.log(threeBack + " three back");
-                        skyContent.append(skyDiv);
-                        skyContent.append(scriptb);
-                                           
-                        
-                        
-                        
-                        //rowContent += "<td></td>";
+                        rowContent += "<td>" + wikiInfo[3] + "</td>";
+                        rowContent += "<td>" + wikiInfo[2] + "</td>";
+                        rowContent += "<td><a href='" + wikiInfo[1] + "' target=blank>" + wikiInfo[0] + "</a></td>";
+                        //rowContent += "<td>$" + flightCost + "</td>";
+                        rowContent += "<td></td>";
 
                         var newColumn = $("<td id='" + code + "'>");
                         //code = code.slice(0,2);
-                        //console.log(code);
+                        console.log(code);
                         var columnContent = "<div>" + riskLevel + "</div>";
                         newColumn.append(columnContent);
                         //rowContent += "<td id='risk-" + code +"'>" + riskLevel + "</td>";
-                        
+
                         newRow.append(rowContent);
 
                         var riskNumber = parseFloat(riskLevel)
@@ -216,11 +158,8 @@ $(document).ready(function () {
                         } else if (riskNumber > 4.5) {
                             newColumn.addClass("extreme-risk");
                         }
-                        
-                        //add skyscanner widget to table
-                        newRow.append(skyContent);
+
                         newRow.append(newColumn);
-                        
                         $("#table-body").append(newRow);
 
                         $("#" + code).mouseenter(function () {
@@ -231,11 +170,20 @@ $(document).ready(function () {
                         $("#" + code).mouseleave(function () {
                             M.Toast.dismissAll();
                         })
-                    }
-                
+                    })
+                    //callback(holidaysFound);
             }
             callback(holidaysFound);
-
+            //If no holidays are found on current search, add a day and search again
+            /* if (holidaysFound.length === 0) {
+                searchDay = moment(searchDay).add(1, 'days');
+                console.log(moment(searchDay).format("YYYY-MM-DD"));
+                year = moment(searchDay).format("YYYY");
+                month = moment(searchDay).format("MM");
+                day = moment(searchDay).format("DD");
+                getHolidays(month, day, year);
+            }
+ */
         })
 
 
@@ -295,21 +243,7 @@ $(document).ready(function () {
     $("#date-search-button").on("click", function () {
         var inputDate = $("#date-enter").val();
         console.log(inputDate);
-        
-        //set fourAhead to input date
-        fourAhead = inputDate;
-        //add four days
-        fourAhead = moment(fourAhead).add(4,'d').format('YYYY-MM-DD');
-        //set three back to input date
-        threeBack = inputDate;
-        //subtract three days
-        threeBack = moment(threeBack).subtract(3,'d').format('YYYY-MM-DD');
-       
-        // makes sure threeback didn't go back in time
-        var now = moment();
-        if (moment(now).isAfter(threeBack)){
-            threeBack = inputDate;
-            }
+        searchDay = inputDate;
 
         if (inputDate < today || inputDate > plusTwoYears) {
             M.toast({ html: "Valid dates are ONLY between today and 2 years from today.", classes: " red rounded" });
@@ -319,10 +253,6 @@ $(document).ready(function () {
             month = moment(inputDate, "YYYY-MM-DD").format("MM");
             day = moment(inputDate, "YYYY-MM-DD").format("DD");
             getHolidays(month, day, year);
-            
-            //var now = moment();
-            
-
 
         }
 
@@ -343,10 +273,10 @@ $(document).ready(function () {
 
 
 
-    function getFlightPrices(airport, holidayDate, callback) {
+    function getFlightPrices(destCountry, holidayDate, callback) {
 
         //my api key a63a34e7f0fbe1a88d351460092f8aa3
-        console.log(airport);
+
 
         var country = "SYD";
         var date = "2019-04-01";
@@ -363,37 +293,32 @@ $(document).ready(function () {
             //thisHome = myHome;
         }).done(function (result) {
             console.log(myHome + "done")
-            yourLoaction = myHome;
-            console.log(holidayDate);
-
-            var departDate = moment(holidayDate, "YYYY-MM-DD").clone().subtract(3, 'days').format("YYYY-MM-DD");
-
-            var baseURL = "https://cors-anywhere.herokuapp.com/";
-            url = "https://min-prices.aviasales.ru/calendar_preload?origin=LAX&destination=" + airport + "&depart_date=" + departDate + "&one_way=false&currency=USD";
-            //url = "https://api.travelpayouts.com/v2/prices/latest?currency=usd&period_type=year&page=1&origin=LAX&destination=AO&limit=30&show_to_affiliates=true&sorting=price&trip_class=0&token=b36f62c9e9a63ded46a8dd2d6622e8a8";
-            //url = "https://api.travelpayouts.com/v2/prices/month-matrix?currency=usd&origin=LAX&destination=" + country + "&show_to_affiliates=true&depart_date=" + date + "&token=a63a34e7f0fbe1a88d351460092f8aa3";
+            baseURL = "https://cors-anywhere.herokuapp.com/";
+            //url = "https://api.travelpayouts.com/v2/prices/month-matrix?currency=usd&origin=NYC&destination=" + country + "&show_to_affiliates=true&depart_date=" + date + "&token=a63a34e7f0fbe1a88d351460092f8aa3";
+            //url = "https://api.travelpayouts.com/v2/prices/latest?currency=usd&origin=" + myHome + "&destination=" + country + "&show_to_affiliates=true&depart_date=" + date + "&return_date=" + retDate + "&token=a63a34e7f0fbe1a88d351460092f8aa3";
+            url = "https://min-prices.aviasales.ru/calendar_preload?origin=LAX&destination=LHR&depart_date=2019-05-01&one_way=false&currency=USD";
             console.log(url);
 
             $.get(url, function (data) {
                 //response data are now in the result variable
                 console.log(data);
                 //var dollars = data.data[0].value;
-                if (data.current_depart_date_prices[6]){
                 var dollars = data.current_depart_date_prices[6].value;
-                roundedDollars = Math.floor(dollars);
-                } else if (data.best_prices.length > 0) {
-                    var total = 0;
-                    for (i=0; i<data.best_prices.length; i++){
-                        total += parseInt(data.best_prices[i].value);
-                    }
-                    roundedDollars = "$" + Math.floor(total / data.best_prices.length);
-                } else {
-                    roundedDollars = "No data.";
-                }
+                var roundedDollars = Math.floor(dollars);
+                //var dollars = Math.floor(parseInt(rubles) / 65.23);
+                //console.log(rubles);
+                //$("#price").text("$" + roundedDollars);
 
             }).done(function (resultb) {
 
                 callback(roundedDollars);
+                //alert(resultb);
+                //JSON.parse(resultb);
+                // console.log(resultb[0]);
+                //var x = resultb;
+                //console.log(x[0]);
+                //JSON.parse(JSON.stringify(x));
+                //console.log(x[0]);
 
             });
 
@@ -406,7 +331,7 @@ $(document).ready(function () {
     //getFlights();
 
     //getTravelAdvisories();
- 
+
 
 
 })
