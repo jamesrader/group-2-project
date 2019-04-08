@@ -22,6 +22,18 @@
     color: #fff;
 }
 
+.test {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+#toast-container {
+    min-width: 10%;
+    top: 40%;
+    right: 25%;
+    /* transform: translateX(50%) translateY(50%); */
+}
+
   @media screen and (min-width: 0px) and (max-width: 767px) and (orientation: portrait) {
   html {
     transform: rotate(-90deg);
