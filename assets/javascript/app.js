@@ -8,8 +8,6 @@
 })(jQuery); // end of jQuery name space
 
 
-
-
 $(document).ready(function () {
 
     var database = firebase.database();
@@ -21,6 +19,8 @@ $(document).ready(function () {
     var today = moment().format("YYYY-MM-DD");
     var plusTwoYears = moment().add(2, "years").format("YYYY-MM-DD");
     var holidaysFound = [];
+
+    
     
     
 
