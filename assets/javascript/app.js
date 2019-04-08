@@ -38,7 +38,8 @@ $(document).ready(function () {
 
     function getHolidays(m, d, y) {
         var baseURL = "https://holidayapi.com/v1/holidays";
-        var apiKey = "?key=6f7ed797-29a5-47cc-85ff-049d4f9db221";
+        //var apiKey = "?key=6f7ed797-29a5-47cc-85ff-049d4f9db221";
+        var apiKey = "?key=84a0e773-2c41-4a19-8be1-14379ffae112"
         var queryDate = "&month=" + m + "&day=" + d + "&year=" + y;
 
         //Reset any previous data
