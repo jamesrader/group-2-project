@@ -11,12 +11,12 @@
       rel="stylesheet"
     />
 
-<!--     <link
+    <!--link
     href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/"
     type="text/css"
     rel="stylesheet"
     media="screen,projection"
-  /> -->
+    />-->
 
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
@@ -37,37 +37,30 @@
 
  
   </head>
-  <body class="container-fluid" style="background-color:  rgb(238, 193, 124)!important">
-    <nav class="lighten-3" style="background-color:  rgb(238, 193, 124)!important" role="navigation">
-      <div class="nav-wrapper container">
-        <img id="logo-div" src="assets/images/logo2.png"></img>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#">Navbar Link</a></li>
-        </ul>
+  
+  <body>
+    <!--navbar with custom logo-->
+      <nav class="lighten-3" style="background-color:  rgb(238, 193, 124)!important" role="navigation">
+          <div class="nav-wrapper container">
+            <img id="logo-div" src="assets/images/logo2.png"></img>
+          </div>
+      </nav>
 
-        <ul id="nav-mobile" class="sidenav ">
-          <li"><a href="#">Navbar Link</a></li>
-        </ul>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-      </div>
-    </nav>
-
+      <!--banner with introduction dialog-->
     <div id="index-banner" class="parallax-container center">
       <div class="section no-pad-bot">
-        <div class="container" style="width: 42rem">
+        <div class="container center">
           <br /><br />
-          <h1 class="header center yellow-text" style="z-index: 3!important; padding-bottom: 15px; border-radius: 10px; font-style: oblique; font-size: 5rem; font-family: fantasy; background: rgb(85, 153, 180);">
+          <h1 class="header col s10 m10 l10 center yellow-text" style="padding-bottom: 15px; border-radius: 10px; font-style: oblique; font-size: 5rem; font-family: fantasy; background: rgb(85, 153, 180);">
             Holiday Everyday
           </h1>
-          <div class="row center">
-            <h5 class="header col s12 black-text blue-grey lighten-3" style="z-index: 1; padding: 5px; margin-top: -2.6rem; background-blend-mode: hue; border-radius: 10px; font-style: oblique; font-family: 'Times New Roman', Times, serif; background: rgb(85, 153, 180);" >
+            <h5 class="header col s10 black-text blue-grey lighten-3" style=" padding: 5px; margin-top: -2.6rem; background-blend-mode: hue; border-radius: 10px; font-style: oblique; font-family: 'Times New Roman', Times, serif; background: rgb(85, 153, 180);" >
               A fast and easy way to view and access holidays or cultural ceremonies from all over the world!
             </h5>
-          </div>
-
+          
+       <!--input form and a date/holiday search-->
           <div class="row center">
+            <div class="container">
                 <form id="input-form">
                         <div class=" row center input-field grey lighten-3 text-lighten-3" style="width:50%; border-top-left-radius: 10px; border-top-right-radius: 10px;">
                         
@@ -76,8 +69,9 @@
                         <input type="date" id="date-enter" style="text-align: center" min="2019-04-03" max="2021-04-03" /><br />
                         </div>
                 </form>
+              </div>
           </div>
-          
+          <!--search button-->
           <div class="row center">
             <a
               id="date-search-button"
@@ -94,16 +88,11 @@
       </div>
     </div>
 
-    <div class="container center" style="font-family: Georgia, 'Times New Roman', Times, serif; background-color:  rgb(238, 193, 124)">
-     
-
-        
-
-      <div class="section center">
-        <!--   Icon Section   -->
-        <div class="row">
+    <!--output table for displaying query data from the date/holiday searched-->
+    <div class="container-fluid center" style="font-family: Georgia, 'Times New Roman', Times, serif; background-color:  rgb(238, 193, 124)">
+      <div class="section center" style="padding: 10px">
           <table  style="border-end-end-radius: 10px">
-            <thead class="black-text center" style="background: rgb(85, 153, 180); border-radius: 2Rem">
+            <thead class="black-text center" style="background: rgb(85, 153, 180); border-radius: 10px">
               <tr>
                 <th style="text-align: center; border-radius: 5px">Flag</th>
                 <th style="text-align: center; border-radius: 5px">Country</th>
@@ -116,26 +105,16 @@
             </thead>
             <tbody id="table-body">
             </tbody>
-          </table>
-        </div>
+          </table> 
       </div>
     </div>
 
     <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="container">
-          <div class="row center">
-            <h5 class="header col s12 light yellow-text">
-              Life is too short not to diascover!
-            </h5>
-          </div>
-        </div>
-      </div>
       <div class="parallax">
         <img src="assets/images/paris.jpg" alt="Unsplashed background img 2" />
       </div>
     </div>
-
+<!--basic email contact field-->
     <div class="container-fluid" style="padding-left: 5rem; padding-right: 5rem; background-color:  rgb(238, 193, 124)">
       <div class="section">
         <div class="row">
@@ -159,7 +138,7 @@
         <img src="assets/images/background3.jpg" alt="Unsplashed background img 3" />
       </div>
     </div>
-
+<!--Team bio and disclaimer-->
     <footer class="page-footer" style="background-color:  rgb(238, 193, 124)">
       <div class="container">
         <div class="row">
@@ -171,6 +150,7 @@
           </div>
         </div>
       </div>
+      <!--citing framework source-->
       <div class="footer-copyright">
         <div class="container">
           Framework by
@@ -183,6 +163,5 @@
 
     <!--  Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!--script src="assets/javascript/init.js"></script>-->
   </body>
 </html>
